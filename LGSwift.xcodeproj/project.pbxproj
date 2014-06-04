@@ -11,6 +11,8 @@
 		86A1D75D193E4E1B00DEFF49 /* LGSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A1D75B193E4E1B00DEFF49 /* LGSwift.xcdatamodeld */; };
 		86A1D75F193E4E1B00DEFF49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A1D75E193E4E1B00DEFF49 /* Images.xcassets */; };
 		86A1D76B193E4E1B00DEFF49 /* LGSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1D76A193E4E1B00DEFF49 /* LGSwiftTests.swift */; };
+		86A1D775193E4E2E00DEFF49 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A1D774193E4E2E00DEFF49 /* Storyboard.storyboard */; };
+		86A1D779193E4E8F00DEFF49 /* ACTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1D778193E4E8F00DEFF49 /* ACTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		86A1D764193E4E1B00DEFF49 /* LGSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A1D769193E4E1B00DEFF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A1D76A193E4E1B00DEFF49 /* LGSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGSwiftTests.swift; sourceTree = "<group>"; };
+		86A1D774193E4E2E00DEFF49 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		86A1D778193E4E8F00DEFF49 /* ACTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				86A1D75E193E4E1B00DEFF49 /* Images.xcassets */,
 				86A1D75B193E4E1B00DEFF49 /* LGSwift.xcdatamodeld */,
 				86A1D757193E4E1B00DEFF49 /* Supporting Files */,
+				86A1D774193E4E2E00DEFF49 /* Storyboard.storyboard */,
+				86A1D778193E4E8F00DEFF49 /* ACTableViewController.swift */,
 			);
 			path = LGSwift;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A1D75F193E4E1B00DEFF49 /* Images.xcassets in Resources */,
+				86A1D775193E4E2E00DEFF49 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +212,7 @@
 			files = (
 				86A1D75D193E4E1B00DEFF49 /* LGSwift.xcdatamodeld in Sources */,
 				86A1D75A193E4E1B00DEFF49 /* AppDelegate.swift in Sources */,
+				86A1D779193E4E8F00DEFF49 /* ACTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
